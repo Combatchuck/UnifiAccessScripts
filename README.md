@@ -1,4 +1,5 @@
-# Created for use in managing the neighborhood Gate System
+# Created for use in managing the neighborhood gate system
+
 ```html
 https://store.ui.com/us/en/products/ua-sk-gate
 ```
