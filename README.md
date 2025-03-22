@@ -1,16 +1,24 @@
 # Created for use in managing the neighborhood gate system
 
+
 ```html
 https://store.ui.com/us/en/products/ua-sk-gate
 ```
 # API Access and Automations
 
-**Important**: Ensure all APIs listed in automations are protected with `10.0.0.0/8` access.
+**Important**: 
+- Ensure all APIs listed in automations are protected with `10.0.0.0/8` access.
+- I removed the API token, but you will need to edit the
+  - Host IP
+  - Group ID
+  - Site ID
+  - anything else specfic to your enviroment 
+
 
 ## Generating a New API Token (Admin Permissions Required)
 
 1. Log in to **Unifi Access**.
-2. Navigate to **General > API Token**.
+2. Navigate to **General -> API Token**.
 3. Create a new token and select all permissions.
 
 ---
