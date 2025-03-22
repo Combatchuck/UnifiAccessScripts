@@ -1,3 +1,7 @@
+# Created for use in managing the neighborhood Gate System
+```html
+https://store.ui.com/us/en/products/ua-sk-gate
+```
 # API Access and Automations
 
 **Important**: Ensure all APIs listed in automations are protected with `10.0.0.0/8` access.
