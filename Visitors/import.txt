@@ -1,4 +1,1 @@
-Terry 	Cooksey	terrydcooksey@gmail.com
-Louann	Altshuler	louann.altshuler@gmail.com
-David	Brookshire	david_brookshire@att.net
-Robert	Altshuler	robalt@me.com
+First  Last  EMAIL
