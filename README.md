@@ -55,32 +55,32 @@
 # Helpful Commands
 
 ### List all Users
-'''bash
+```bash
 curl -s -k 'https://10.10.10.1:12445/api/v1/developer/users' -H 'Authorization: Bearer <token>' | \
 jq '.data[]'
-'''
+```
 
 ### List all Doors
-'''bash
+```bash
 curl -s -k 'https://10.10.10.1:12445/api/v1/developer/doors' -H 'Authorization: Bearer <token>' | \
 jq '.data[]'
-'''
+```
 
 ### List All Groups
-'''bash
+```bash
 curl -s -k 'https://10.10.10.1:12445/api/v1/developer/user_groups' -H 'Authorization: Bearer <token>' | \
 jq '.data[]'
-'''
+```
 
 ### List All Sites
-'''bash
+```bash
 curl -X GET 'https://api.ui.com/ea/hosts?pageSize=10' \
 -H 'Accept: application/json' \
 -H 'X-API-KEY: <token>' | jq '.data[]'
-'''
+```
 
 ### List All Visitors
-'''bash
+```bash
 curl -s -k 'https://10.10.10.1:12445/api/v1/developer/visitors' -H 'Authorization: Bearer <token>' | \
 jq '.data[]'
-'''
+```
