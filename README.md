@@ -30,18 +30,21 @@
 
 
 
-# Visitor Automations (Visitor Folder) 
-### Multiple Visitors - still requires QR Code to be enabled and linked to existing user
+# Visitor Automations
+*Located in the `Visitor Folder`. Ensure necessary permissions are set.*
+*Still requires QR Code to be enabled and linked to existing user*
+
+### Multiple Visitors - Guests and not residents
 ##    File Format
 ##        .TXT File (First Name Last Name Email address) Space or Tab Delemited
 
         ./24-7-Multiple_Visitor_BasedOff_NON_Resident.sh <visitors_file.txt>
-### Multiple Visitors where it creates based off existing user - still requires QR Code to be enabled
+### Multiple Visitors where it creates based off existing user 
 ##    File Format
 ##        .TXT File (email, one per line and must exist as a existing user) Space or Tab Delemited
 
         ./24-7-Multiple_VisitorBasedOff_Resident.sh <visitors_file.txt>
-### Single User Based off non resident - still requires QR Code to be enabled and linked to existing user
+### Single User Based off non resident
 
     ./24-7-Single_VisitorBasedOff_NON_Resident.sh <First> <Last> <email>
 ### Single User Based off existing resident - Creates visitor as First Name: <First_Last> Last Name: <Visitor> 
