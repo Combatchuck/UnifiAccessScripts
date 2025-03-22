@@ -3,7 +3,7 @@
 # API variables
 API_URL="https://10.10.10.1:12445/api/v1/developer/users"
 GROUP_API="https://10.10.10.1:12445/api/v1/developer/user_groups"
-AUTH_HEADER="Authorization: Bearer deN64WaTGT482FmJlb5PPQ"
+AUTH_HEADER="Authorization: Bearer <token>"
 GROUP_ID="4929bbb7-cf20-4ee7-98c6-3adf22901c52"
 
 # CSV File (First Name, Last Name, Email, PIN)
