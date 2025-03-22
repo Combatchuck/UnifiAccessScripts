@@ -4,7 +4,7 @@
 API_URL="https://10.10.10.1:12445/api/v1/developer/users"
 GROUP_ID="4929bbb7-cf20-4ee7-98c6-3adf22901c52"
 GROUP_URL="https://10.10.10.1:12445/api/v1/developer/user_groups/$GROUP_ID/users"
-AUTH_HEADER="Authorization: Bearer deN64WaTGT482FmJlb5PPQ"
+AUTH_HEADER="Authorization: Bearer <token>"
 
 # Input variables
 EMAIL="$1"
