@@ -2,7 +2,7 @@
 # API Endpoints
 VISITOR_API="https://10.10.10.1:12445/api/v1/developer/visitors"
 TOPOLOGY_API="https://10.10.10.1:12445/api/v1/developer/door_groups/topology"
-AUTH_HEADER="Authorization: Bearer deN64WaTGT482FmJlb5PPQ"
+AUTH_HEADER="Authorization: Bearer <token>"
 
 # Input: First Name, Last Name, Email
 FIRST_NAME="$1"
