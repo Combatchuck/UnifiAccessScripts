@@ -2,7 +2,7 @@
 # API Endpoints
 VISITOR_API="https://10.10.10.1:12445/api/v1/developer/visitors"
 TOPOLOGY_API="https://10.10.10.1:12445/api/v1/developer/door_groups/topology"
-AUTH_HEADER="Authorization: Bearer deN64WaTGT482FmJlb5PPQ"
+AUTH_HEADER="Authorization: Bearer <token>"
 
 # Schedule and Holiday Group IDs
 SCHEDULE_ID="f7e55cdf-e83c-4384-9bfc-d83bca376892"
