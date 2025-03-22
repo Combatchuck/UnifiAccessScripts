@@ -52,6 +52,29 @@
 
 
 
+# Helpful Commands
+
+### List all Users
+curl -s -k 'https://10.10.10.1:12445/api/v1/developer/users' -H 'Authorization: Bearer <token>' | \
+jq '.data[]'
+
+### List all Doors
+curl -s -k 'https://10.10.10.1:12445/api/v1/developer/doors' -H 'Authorization: Bearer <token>' | \
+
+jq '.data[]'
+
+### List All Groups
+curl -s -k 'https://10.10.10.1:12445/api/v1/developer/user_groups' -H 'Authorization: Bearer <token>' | \
+
+jq '.data[]'
 
 
+### List All Sites
+curl -X GET 'https://api.ui.com/ea/hosts?pageSize=10' \
+-H 'Accept: application/json' \
+-H 'X-API-KEY: <token>' | jq '.data[]'
 
+### List All Visitors
+curl -s -k 'https://10.10.10.1:12445/api/v1/developer/visitors' -H 'Authorization: Bearer <token>' | \
+
+jq '.data[]'
