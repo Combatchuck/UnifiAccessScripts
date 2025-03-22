@@ -20,13 +20,13 @@
 
 ###  Create User (New User from scratch)
 ```bash 
-     ./Create_User.sh <first_name> <last_name> <email> <new_pin>
+./Create_User.sh <first_name> <last_name> <email> <new_pin>
 ```
 ### Create Multiple Users from CSV (Multiple User Creation)
 ##    File Format
 ##       CSV File (First Name, Last Name, Email, PIN)
  ```bash 
-        ./Create_Users_From_CSV.sh <csv_file>
+./Create_Users_From_CSV.sh <csv_file>
 ```
 
 
@@ -39,21 +39,21 @@
 ##    File Format
 ##        .TXT File (First Name Last Name Email address) Space or Tab Delemited
 ```bash
-        ./24-7-Multiple_Visitor_BasedOff_NON_Resident.sh <visitors_file.txt>
+./24-7-Multiple_Visitor_BasedOff_NON_Resident.sh <visitors_file.txt>
 ```
 ### Multiple Visitors where it creates based off existing user 
 ##    File Format
 ##        .TXT File (email, one per line and must exist as a existing user) Space or Tab Delemited
 ```bash
-        ./24-7-Multiple_VisitorBasedOff_Resident.sh <visitors_file.txt>
+./24-7-Multiple_VisitorBasedOff_Resident.sh <visitors_file.txt>
 ```
 ### Single User Based off non resident
 ```bash
-    ./24-7-Single_VisitorBasedOff_NON_Resident.sh <First> <Last> <email>
+./24-7-Single_VisitorBasedOff_NON_Resident.sh <First> <Last> <email>
 ```
 ### Single User Based off existing resident - Creates visitor as First Name: <First_Last> Last Name: <Visitor> 
 ```bash
-   ./24-7-Single_VisitorBasedOff_Resident.sh <email>
+./24-7-Single_VisitorBasedOff_Resident.sh <email>
 ```
 
 
