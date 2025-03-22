@@ -4,7 +4,7 @@
 USER_API="https://10.10.10.1:12445/api/v1/developer/users"
 VISITOR_API="https://10.10.10.1:12445/api/v1/developer/visitors"
 TOPOLOGY_API="https://10.10.10.1:12445/api/v1/developer/door_groups/topology"
-AUTH_HEADER="Authorization: Bearer deN64WaTGT482FmJlb5PPQ"
+AUTH_HEADER="Authorization: Bearer <token>"
 
 # Input: CSV File
 CSV_FILE="$1"
