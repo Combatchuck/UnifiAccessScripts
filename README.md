@@ -68,7 +68,10 @@
 
 
 # Helpful Commands
-
+###Source Documentation
+```html
+https://core-config-gfoz.uid.alpha.ui.com/configs/unifi-access/api_reference.pdf
+```
 ### List all Users
 ```bash
 curl -s -k 'https://10.10.10.1:12445/api/v1/developer/users' -H 'Authorization: Bearer <token>' | \
