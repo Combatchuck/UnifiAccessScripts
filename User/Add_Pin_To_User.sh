@@ -2,7 +2,7 @@
 
 # API variables
 API_URL="https://10.10.10.1:12445/api/v1/developer/users"
-AUTH_HEADER="Authorization: Bearer deN64WaTGT482FmJlb5PPQ"
+AUTH_HEADER="Authorization: Bearer <token>"
 
 # Input variables
 EMAIL="$1"
