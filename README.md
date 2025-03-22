@@ -1,4 +1,4 @@
-API Listed in automations has the highest permissions and should be protected
+API Listed in automations should be protected
 Requires 10.0.0.0/8 access
 
 ## To Generate a new API Token (Requires Admin Permissions)
@@ -6,7 +6,7 @@ Log in to Unifi Access -> General -> API Token
 Create a new token and pick all permissions
 
 
-########################################
+################################################################################
 
 # User Automations (User Folder)
 ### Add PIN and Group to User (Adding to existing User)
@@ -25,7 +25,7 @@ Create a new token and pick all permissions
         ./Create_Users_From_CSV.sh <csv_file>
 
 
-########################################
+################################################################################
 
 # Visitor Automations (Visitor Folder) 
 ### Multiple Visitors - still requires QR Code to be enabled and linked to existing user
